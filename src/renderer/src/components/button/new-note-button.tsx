@@ -3,8 +3,8 @@ import { Button } from "../ui/button";
 
 export function NewNoteButton() {
     return (
-        <Button>
-            <FilePen className="w-4 h-4 text-zinc-300" />
+        <Button variant="secondary">
+            <FilePen className="w-6 h-6 text-zinc-300" />
         </Button>
     );
 }
